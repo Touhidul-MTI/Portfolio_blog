@@ -1,0 +1,15 @@
+{% extends "portfolio/header.html" %}
+{% load staticfiles %}
+
+{% block content %}
+
+<div style="padding-left: 10%; padding-right: 10%; padding-top: 10px; padding-bottom: 10px">
+
+	<h3>{{post.title}}</h3>
+	<h6>on {{post.date}}</h6>
+	<br/>
+	{{post.body|safe|linebreaks}}
+	
+</div>
+
+{% endblock %}

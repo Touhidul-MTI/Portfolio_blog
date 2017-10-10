@@ -1,0 +1,32 @@
+{% extends "portfolio/header.html" %}
+{% load staticfiles %}
+
+{% block content %}
+
+<div class="container-fluid">
+	<div class="row">
+
+		<div class="container">
+			<div class="row">
+				<div class="home-mid-ver center-block col-md-8 col-sm-7">
+					<div style="padding-bottom: 50px;">
+						<p class="h1 text-center animated shake">Muhammad Touhidul Islam</p>
+						<p class="text-center">BSc. Engg. in Computer Science and Engineering</p>
+					</div>
+					<p class="text-center tb-border">Java, Python, Django, JavaFX, MySQL, C++, Android Apps Development, PHP, HTML, CSS, JavaScript, JQuery, Bootstrap, Linux Shell Scripting, GIT, OOP, Graphics Desgin.</p>
+
+				</div>
+				<div class="home-side col-md-4 col-sm-5 hidden-xs">
+					<img id="img-pro-pic" src="{% static 'img/profile-pic.jpg' %}" alt="Profile picture" class="img-responsive img-circle center-block">
+				</br>
+				<p class="text-justify">In 19th century (90's decades), Muhammad Touhidul Islam was born in Rajbari District (All praises to Allah (swt) for such a kindness). He is a servant of Allah (swt). He is a student. He loves to learn and still learning. Please, pray for him. Thank you.</p>
+			</div>
+		</div><!--end of container-->
+	</div><!--end of row-->
+
+	<!--separated the footer part (social.html) to understand include other pages as parts-->
+	{% include "portfolio/includes/social.html" %}
+	
+</div><!--end of container fluid-->
+
+{% endblock %}

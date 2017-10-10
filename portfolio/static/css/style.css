@@ -1,0 +1,96 @@
+body {
+  font-size: 1.4em;
+  text-transform: uppercase;
+  color: #4e342e;
+}
+.custom-body{
+  background: #d7ccc8;
+  padding-top: 70px;
+}
+.navbar-default{
+  background: #795548;
+}
+.navbar>.container .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+  color: #efebe9;
+}
+
+.navbar>.container .navbar-brand:hover,
+.navbar-default .navbar-nav>li>a:hover {
+  color: #ffc107;
+}
+
+.home-mid-ver{
+ display: -webkit-box;
+ display: -webkit-flex;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-box-orient: vertical;
+ -webkit-box-direction: normal;
+ -webkit-flex-direction: column;
+ -ms-flex-direction: column;
+ flex-direction: column;
+ -webkit-box-pack: center;
+ -webkit-justify-content: center;
+ -ms-flex-pack: center;
+ justify-content: center;
+ -webkit-align-content: center;
+ -ms-flex-line-pack: center;
+ align-content: center;
+ min-height: 90vh;
+}
+
+.home-side{
+  padding-top: 60px;
+}
+
+.tb-border{
+  border-bottom:2px solid #a1887f; 
+  border-top:2px solid #a1887f; 
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
+.site-footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: none;
+}
+
+.site-footer ul{
+  list-style: none;
+}
+
+.site-footer ul li{
+  display: inline;
+  margin-right: 10px;
+}
+
+.site-footer ul li:last-child{
+  padding-right: 5px;
+}
+
+.site-footer .fa-facebook, 
+.site-footer .fa-google-plus,
+.site-footer .fa-github {
+  color: #3e2723;
+}
+
+.site-footer .fa-facebook:hover, 
+.site-footer .fa-google-plus:hover,
+.site-footer .fa-github:hover {
+  color: #e65100;
+}
+
+.footer-nav li a:hover {
+  color: #D35400;
+}
+
+#img-pro-pic{
+  max-height: 150px;
+}
+img{
+  max-width: 300px;
+  padding-bottom: 10px;
+}

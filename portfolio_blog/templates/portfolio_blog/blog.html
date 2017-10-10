@@ -1,0 +1,16 @@
+{% extends "portfolio/header.html" %}
+
+{% block content %}
+
+<div style="padding-left: 10%; padding-right: 10%; padding-top: 10px; padding-bottom: 10px">
+	<h4>All posts:</h4>
+	<div style="padding-left: 20px; padding-right: 20px;">
+
+		{% for post in object_list %}
+		<h5>{{ post.date|date:"d-m-Y" }}:: <a href="/blog/{{post.id}}">{{post.title}}</a></h5>
+		{% endfor %}
+		
+	</div>
+</div>
+
+{% endblock %}
